@@ -27,6 +27,7 @@ form div{
 input{
     margin: 20px;
     box-shadow: 2px 2px 2px 2px ;
+    border-radius: 10px;
 }
 form .t1 ,form .t2, form .t4, form .t5{
     display: flex;
@@ -68,7 +69,12 @@ form .t3 , form .t6 , form .t7{
 select{
     margin-top: 8px;
     box-shadow: 2px 2px 2px 2px ;
+    border-radius: 10px;
 }
 .e{
     width: 80%;
+}
+span{
+    position: relative;
+    left: 50px;
 }
